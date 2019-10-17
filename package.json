@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@types/classnames": "latest",
@@ -15,6 +16,7 @@
     "@types/react-redux": "7.1.1",
     "bootstrap": "4.3.1",
     "classnames": "2.2.6",
+    "gh-pages": "^2.1.1",
     "lodash": "4.17.15",
     "react": "16.8.6",
     "react-dom": "latest",
@@ -23,7 +25,8 @@
     "redux-devtools-extension": "2.13.8"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.6.1"
+    "parcel-bundler": "^1.6.1",
+    "typescript": "^3.6.4"
   },
   "keywords": []
 }
