@@ -1,6 +1,6 @@
 import { Convert } from './types';
 
-const pattern = /^\\([0-9A-Fa-f]{4})$/; // TODO: Double check length
+const pattern = /^\\([0-9A-Fa-f]{,6})$/;
 
 const convert: Convert = {
   pattern,
