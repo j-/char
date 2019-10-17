@@ -6,7 +6,7 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --public-url https://skeoh.com/char/",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
