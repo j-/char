@@ -1,0 +1,37 @@
+.CharmapChar {
+  background-color: #fff;
+	border: 1px solid #ccc;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+  transition:
+    color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+.CharmapChar:focus {
+  outline: none;
+  z-index: 3;
+}
+
+.CharmapChar:hover {
+	background-color: #eee;
+	border-color: #bbb;
+	z-index: 2;
+}
+
+.CharmapChar.CharmapChar--active {
+	background-color: hsl(200, 80%, 80%);
+	border-color: hsl(200, 70%, 50%);
+	z-index: 3;
+}
+
+.CharmapChar.CharmapChar--active:not(:disabled) {
+	cursor: default;
+}
+
+.CharmapChar.CharmapChar--active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}

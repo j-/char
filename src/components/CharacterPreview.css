@@ -1,0 +1,7 @@
+.CharacterPreview {
+  font-size: 5em;
+  line-height: 1.5em;
+  height: 2.5em;
+  padding: 0.5em 0 !important; /* TODO: Remove !important */
+  overflow: hidden;
+}
